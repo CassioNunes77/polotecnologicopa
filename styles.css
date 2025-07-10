@@ -513,6 +513,10 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+#strategic-map.map-container {
+    height: 508px;
+}
+
 .infra-data {
     display: flex;
     flex-direction: column;
