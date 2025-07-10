@@ -123,9 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializar mapas
     if (document.getElementById('map')) {
         // Coordenadas do polo industrial
-        const poloIndustrial = [-9.4020, -38.2130];
-        
-        const map = L.map('map').setView(poloIndustrial, 14);
+        const poloIndustrial = [-9.4243992, -38.2050105];
+        const map = L.map('map').setView(poloIndustrial, 13.7);
         
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
