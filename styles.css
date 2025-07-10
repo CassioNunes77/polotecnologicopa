@@ -1019,7 +1019,7 @@ img {
 
 .footer-links h4, .footer-contact h4, .footer-social h4 {
     margin-bottom: 20px;
-    color: var(--accent-color);
+    color: #fff;
     font-size: 1.2rem;
 }
 
@@ -1035,7 +1035,7 @@ img {
 
 .footer-links ul li a:hover {
     opacity: 1;
-    color: var(--accent-color);
+    color: #fff;
 }
 
 .footer-contact p {
@@ -1046,7 +1046,7 @@ img {
 
 .footer-contact p i {
     margin-right: 10px;
-    color: var(--accent-color);
+    color: #fff;
 }
 
 .footer-social .social-icons {
